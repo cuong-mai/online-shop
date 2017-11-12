@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2746ddd-c573-4415-afe1-44adbd18333d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d2746ddd-c573-4415-afe1-44adbd18333d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../online-shop-backend/target/" />
@@ -600,7 +598,7 @@
       <workItem from="1510431858779" duration="17383000" />
       <workItem from="1510457293177" duration="635000" />
       <workItem from="1510457997426" duration="11354000" />
-      <workItem from="1510494621339" duration="7113000" />
+      <workItem from="1510494621339" duration="7251000" />
     </task>
     <task id="LOCAL-00001" summary="Add DAO, service interfaces and classes.&#10;Separate side bar and dynamically display Categories.">
       <created>1510463860890</created>
@@ -627,7 +625,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47931000" />
+    <option name="totallyTimeSpent" value="48069000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
