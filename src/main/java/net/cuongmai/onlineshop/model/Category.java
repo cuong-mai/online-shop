@@ -11,24 +11,27 @@ public class Category {
     @Column(name = "id")
     private int id;
 
+    @Column(name = "name")
     private String name;
 
+    @Column(name = "description")
     private String description;
 
     @Column(name = "image_url")
     private String imageUrl;
 
+    @Column(name = "active")
     private boolean active = true;
 
     public Category() {
     }
 
-    public Category(String name, String description, String imageUrl, boolean active) {
-        this.name = name;
-        this.description = description;
-        this.imageUrl = imageUrl;
-        this.active = active;
-    }
+//    public Category(String name, String description, String imageUrl, boolean active) {
+//        this.name = name;
+//        this.description = description;
+//        this.imageUrl = imageUrl;
+//        this.active = active;
+//    }
 
     public int getId() {
         return id;
