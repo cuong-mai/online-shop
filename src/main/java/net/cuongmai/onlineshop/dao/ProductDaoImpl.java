@@ -47,7 +47,7 @@ public class ProductDaoImpl implements ProductDao {
     }
 
     @Override
-    public List<Product> getActiveProducts() {
+    public List<Product> getAllActiveProducts() {
         Session session = sessionFactory.getCurrentSession();
 
         try {

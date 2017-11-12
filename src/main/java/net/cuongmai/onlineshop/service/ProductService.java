@@ -10,7 +10,7 @@ public interface ProductService {
 
     List<Product> getAllProductsByCategory(int categoryId);
 
-    List<Product> getActiveProducts();
+    List<Product> getAllActiveProducts();
 
     List<Product> getActiveProductsByCategory(int categoryId);
 

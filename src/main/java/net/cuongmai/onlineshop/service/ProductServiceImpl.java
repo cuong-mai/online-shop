@@ -28,8 +28,8 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     @Transactional
-    public List<Product> getActiveProducts() {
-        return productDao.getActiveProducts();
+    public List<Product> getAllActiveProducts() {
+        return productDao.getAllActiveProducts();
     }
 
     @Override

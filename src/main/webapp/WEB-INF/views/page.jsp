@@ -24,6 +24,9 @@
     <!-- Bootstrap Flatly Theme CSS -->
     <link href="${css}/bootstrap.united.min.css" rel="stylesheet">
 
+    <!-- DataTables CSS -->
+    <link href="${css}/datatables.css" rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <link href="${css}/main.css" rel="stylesheet">
 
@@ -59,6 +62,7 @@
         <!-- Bootstrap core JavaScript -->
         <script src="${js}/jquery.min.js"></script>
         <script src="${js}/bootstrap.bundle.min.js"></script>
+        <script src="${js}/datatables.js"></script>
         <script src="${js}/main.js"></script>
 
     </div>
