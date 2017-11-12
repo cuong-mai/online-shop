@@ -20,7 +20,7 @@ public class PageController {
         model.addAttribute("title", "Home");
         model.addAttribute("userClickHome", true);
 
-        List<Category> categoryList = categoryService.getCategoryList();
+        List<Category> categoryList = categoryService.getActiveCategories();
 
         model.addAttribute("categoryList", categoryList);
 

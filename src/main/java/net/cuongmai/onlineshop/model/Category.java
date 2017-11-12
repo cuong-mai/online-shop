@@ -1,11 +1,23 @@
 package net.cuongmai.onlineshop.model;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "category")
 public class Category {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private int id;
+
     private String name;
+
     private String description;
+
+    @Column(name = "image_url")
     private String imageUrl;
+
     private boolean active = true;
 
     public Category() {
