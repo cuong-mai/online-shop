@@ -6,46 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2746ddd-c573-4415-afe1-44adbd18333d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/css/dataTables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/css/dataTables.bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/css/dataTables.bootstrap4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/css/dataTables.bootstrap4.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/css/dataTables.foundation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/css/dataTables.foundation.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/css/dataTables.jqueryui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/css/dataTables.jqueryui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/css/dataTables.semanticui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/css/dataTables.semanticui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/css/jquery.dataTables.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/css/jquery.dataTables.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/images/sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/images/sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/images/sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/images/sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/images/sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/js/dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/js/dataTables.bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/js/dataTables.bootstrap4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/js/dataTables.bootstrap4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/js/dataTables.foundation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/js/dataTables.foundation.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/js/dataTables.jqueryui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/js/dataTables.jqueryui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/js/dataTables.semanticui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/js/dataTables.semanticui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/js/jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/DataTables-1.10.16/js/jquery.dataTables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/datatables.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/datatables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/datatables.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/DataTables/datatables.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/ProductController.java" afterPath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/ProductController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/sidebar.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/sidebar.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" />
-    </list>
+    <list default="true" id="d2746ddd-c573-4415-afe1-44adbd18333d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../online-shop-backend/target/" />
@@ -657,7 +618,7 @@
       <workItem from="1510457293177" duration="635000" />
       <workItem from="1510457997426" duration="11354000" />
       <workItem from="1510494621339" duration="7251000" />
-      <workItem from="1510540402952" duration="10417000" />
+      <workItem from="1510540402952" duration="10526000" />
     </task>
     <task id="LOCAL-00001" summary="Add DAO, service interfaces and classes.&#10;Separate side bar and dynamically display Categories.">
       <created>1510463860890</created>
@@ -680,11 +641,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510504181869</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add DataTables and JSON request mappings for display products">
+      <created>1510550949918</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1510550949918</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58486000" />
+    <option name="totallyTimeSpent" value="58595000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -746,7 +714,8 @@
     <MESSAGE value="Add DAO, service interfaces and classes.&#10;Separate side bar and dynamically display Categories." />
     <MESSAGE value="Add model, DAO, service and controller for Product." />
     <MESSAGE value="Add Jacson for returning JSON to views.&#10;Add controllers and request mappings for displaying products." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Jacson for returning JSON to views.&#10;Add controllers and request mappings for displaying products." />
+    <MESSAGE value="Add DataTables and JSON request mappings for display products" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add DataTables and JSON request mappings for display products" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
