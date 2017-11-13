@@ -9,15 +9,13 @@ $(document).ready(function() {
     var productJsonUrl = window.contextRoot +  "/json/product/list"
         + (window.categoryId == "" ? "" : "?categoryId=" + window.categoryId);
 
-    console.log(productJsonUrl);
-
     var $table = $("#productListTable");
 
     if ($table.length) {
         $table.DataTable({
             language: {
                 lengthMenu: "Show _MENU_ products per page",
-                info: "Showing _START_ to _END_ of _TOTAL_ products"
+                info: "Showing _START_ to _END_ of _TOTAL_ products",
             },
             iDisplayLength: 20,
             lengthMenu: [[3, 5, 10, 20, 50, -1], ["3", "5", "10", "20", "50", "All"]],
@@ -26,19 +24,44 @@ $(document).ready(function() {
                 dataSrc: ""
             },
             columns: [
-                {data: "name"},
                 {
-                    data: "brand",
-                    className: "text-center"
+                    data: "code",
+                    render: function(data, type, row, meta) {
+                        var str = "<img src='" + "http://placehold.it/100x100" + "' alt='" + ""  + "'>";
+                        return str;
+                    }
                 },
                 {
-                    data: "unitPrice",
-                    className: "text-center"
+                    data: "name"
                 },
                 {
-                    data: "quantity",
-                    className: "text-center"
+                    data: "brand"
                 },
+                {
+                    data: "unitPrice"
+                    // ,
+                    // render: function (data, type, row, meta) {
+                    //     return "&dollar;" + data;
+                    // }
+                },
+                {
+                    data: "quantity"
+                },
+                {
+                    data: "id"
+                    ,
+                    render: function(data, type, row, meta) {
+                        var str = "";
+
+                        str += "<a href='" + window.contextRoot + "/product/detail?id=" + data + "' "
+                            + "class='btn btn-outline-primary'><span class='fa fa-eye'></span></a> &#160;";
+
+                        str += "<a href='" + window.contextRoot + "/SOMETHINGHERE?id=" + data + "' "
+                            + "class='btn btn-outline-primary'><span class='fa fa-cart-plus'></span></a>";
+
+                        return str;
+                    }
+                }
             ]
         });
     }

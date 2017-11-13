@@ -20,7 +20,7 @@
 
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="${contextRoot}/home">Home</a></li>
-                            <li class="breadcrumb-item active">All Products</li>
+                            <li class="breadcrumb-item active">Products</li>
                         </ol>
                     </c:if>
 
@@ -31,7 +31,7 @@
 
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="${contextRoot}/home">Home</a></li>
-                            <li class="breadcrumb-item"><a href="${contextRoot}/product/list">All Products</a></li>
+                            <li class="breadcrumb-item"><a href="${contextRoot}/product/list">Products</a></li>
                             <li class="breadcrumb-item active">${category.name}</li>
                         </ol>
                     </c:if>
@@ -39,16 +39,16 @@
             </div>
 
             <div class="row">
-                <div class="col-xs-12">
-                    <table id="productListTable" class="table table-striped table-borderd">
+                <div class="col-sm-12">
+                    <table id="productListTable" class="table table-borderd my-data-table">
                         <thead>
                             <tr class="text-center">
-                                <%--<th></th>--%>
+                                <th></th>
                                 <th>Name</th>
                                 <th>Brand</th>
                                 <th>Price</th>
-                                <th>Qty. Available</th>
-                                <%--<th></th>--%>
+                                <th>In Stock</th>
+                                <th></th>
                             </tr>
                         </thead>
                     </table>

@@ -30,6 +30,9 @@
     <!-- Bootstrap Flatly Theme CSS -->
     <link href="${css}/bootstrap.united.min.css" rel="stylesheet">
 
+    <!-- Font Awesome CSS -->
+    <link href="${css}/font-awesome.min.css" rel="stylesheet">
+
     <!-- DataTables CSS -->
     <link href="${css}/datatables.css" rel="stylesheet">
 
@@ -64,6 +67,11 @@
             <!-- Load View Products page content -->
             <c:if test="${userClickAllProducts == true || userClickCategoryProducts == true}">
                 <%@include file="./productList.jsp"%>
+            </c:if>
+
+            <!-- Load Product Details view page content -->
+            <c:if test="${userClickProductDetail}">
+                <%@include file="./productDetail.jsp"%>
             </c:if>
         </div>
 
