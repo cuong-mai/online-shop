@@ -2,6 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<c:set var="contextRoot" value="${pageContext.request.contextPath}"/>
+
 <spring:url var="css" value="/resources/css" />
 <spring:url var="js" value="/resources/js" />
 <spring:url var="images" value="/resources/images" />
@@ -17,6 +19,10 @@
     <meta name="author" content="">
 
     <title>Cuong Shop - ${title}</title>
+
+    <script>
+        window.contextRoot = "${contextRoot}";
+    </script>
 
     <!-- Bootstrap core CSS -->
     <link href="${css}/bootstrap.min.css" rel="stylesheet">
@@ -53,6 +59,11 @@
             <!-- Load Contact page content -->
             <c:if test="${userClickContact == true}">
                 <%@include file="./contact.jsp"%>
+            </c:if>
+
+            <!-- Load View Products page content -->
+            <c:if test="${userClickAllProducts == true || userClickCategoryProducts == true}">
+                <%@include file="./productList.jsp"%>
             </c:if>
         </div>
 

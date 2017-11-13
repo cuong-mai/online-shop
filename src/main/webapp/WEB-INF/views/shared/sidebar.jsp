@@ -1,7 +1,5 @@
 <!-- Side bar -->
 
-<c:set var="contextRoot" value="${pageContext.request.contextPath}"/>
-
 <h1 class="my-4">Cuong Shop</h1>
 <div class="list-group">
 
