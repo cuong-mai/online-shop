@@ -8,10 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d2746ddd-c573-4415-afe1-44adbd18333d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productDetail.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productDetail.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -567,7 +563,7 @@
       <workItem from="1510582155698" duration="250000" />
       <workItem from="1510582606249" duration="14834000" />
       <workItem from="1510625478211" duration="9510000" />
-      <workItem from="1510669765118" duration="10345000" />
+      <workItem from="1510669765118" duration="10416000" />
     </task>
     <task id="LOCAL-00001" summary="Add DAO, service interfaces and classes.&#10;Separate side bar and dynamically display Categories.">
       <created>1510463860890</created>
@@ -611,11 +607,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510637425996</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Display &quot;Out of Stock&quot; and disable &quot;Add to Cart&quot; buttons for products with 0 quantity.">
+      <created>1510680512654</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1510680512654</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94127000" />
+    <option name="totallyTimeSpent" value="94198000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -681,7 +684,8 @@
     <MESSAGE value="Add DataTables and JSON request mappings for display products" />
     <MESSAGE value="Add controller, view for displaying product details." />
     <MESSAGE value="Handle NoHandlerFoundException. Define and handle ProductNotFoundException. Add error page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Handle NoHandlerFoundException. Define and handle ProductNotFoundException. Add error page." />
+    <MESSAGE value="Display &quot;Out of Stock&quot; and disable &quot;Add to Cart&quot; buttons for products with 0 quantity." />
+    <option name="LAST_COMMIT_MESSAGE" value="Display &quot;Out of Stock&quot; and disable &quot;Add to Cart&quot; buttons for products with 0 quantity." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
