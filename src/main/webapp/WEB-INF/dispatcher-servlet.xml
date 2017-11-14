@@ -13,6 +13,9 @@
     <!-- Enable component scan -->
     <context:component-scan base-package="net.cuongmai.onlineshop"/>
 
+    <!-- Enable annotation driven -->
+    <mvc:annotation-driven/>
+
     <!-- View Resolver -->
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -20,8 +23,6 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-    <!-- Enable annotation driven -->
-    <mvc:annotation-driven/>
 
     <mvc:resources mapping="/resources/**" location="/resources/"/>
 

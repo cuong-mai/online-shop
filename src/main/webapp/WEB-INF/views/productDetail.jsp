@@ -32,7 +32,7 @@
             <h6>Qty. in Stock: ${product.quantity}</h6>
             <hr>
 
-            <a href="${contextRoot}/cart/add?productId=${product.id}" class="btn btn-success">
+            <a href="${contextRoot}/cart/add?productId=${product.id}" class="btn btn-primary">
                 <span class="fa fa-cart-plus"></span> Add to Cart
             </a>
 

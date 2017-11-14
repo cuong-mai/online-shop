@@ -1,16 +1,15 @@
 package net.cuongmai.onlineshop.controller;
 
+import net.cuongmai.onlineshop.exception.ProductNotFoundException;
 import net.cuongmai.onlineshop.model.Category;
 import net.cuongmai.onlineshop.model.Product;
 import net.cuongmai.onlineshop.service.CategoryService;
 import net.cuongmai.onlineshop.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
@@ -54,9 +53,15 @@ public class ProductController {
     @RequestMapping("/detail")
     public String showProductDetail(@RequestParam Integer id,
                                     HttpServletRequest request,
-                                    Model model) {
+                                    Model model)
+            throws ProductNotFoundException {
 
         Product product = productService.getProductById(id);
+
+        if (product == null) {
+            throw new ProductNotFoundException();
+        }
+
         product.setViews(product.getViews() + 1);
 
         String previousPageUrl = request.getHeader("referer");
