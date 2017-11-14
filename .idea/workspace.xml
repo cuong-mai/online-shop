@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2746ddd-c573-4415-afe1-44adbd18333d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d2746ddd-c573-4415-afe1-44adbd18333d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../online-shop-backend/target/" />
@@ -606,7 +604,7 @@
       <workItem from="1510582155698" duration="250000" />
       <workItem from="1510582606249" duration="14834000" />
       <workItem from="1510625478211" duration="9510000" />
-      <workItem from="1510669765118" duration="18542000" />
+      <workItem from="1510669765118" duration="18557000" />
     </task>
     <task id="LOCAL-00001" summary="Add DAO, service interfaces and classes.&#10;Separate side bar and dynamically display Categories.">
       <created>1510463860890</created>
@@ -664,11 +662,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510696738136</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ide">
+      <created>1510696815008</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1510696815008</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102324000" />
+    <option name="totallyTimeSpent" value="102339000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -736,7 +741,8 @@
     <MESSAGE value="Handle NoHandlerFoundException. Define and handle ProductNotFoundException. Add error page." />
     <MESSAGE value="Display &quot;Out of Stock&quot; and disable &quot;Add to Cart&quot; buttons for products with 0 quantity." />
     <MESSAGE value="Add controller, view for add new product or edit existing product." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add controller, view for add new product or edit existing product." />
+    <MESSAGE value="ide" />
+    <option name="LAST_COMMIT_MESSAGE" value="ide" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
