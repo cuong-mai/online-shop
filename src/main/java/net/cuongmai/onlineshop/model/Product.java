@@ -46,22 +46,11 @@ public class Product {
     private int views;
 
     public Product() {
+        setCode();
+        setActive(true);
+        setPurchases(0);
+        setViews(0);
     }
-
-//    public Product(String name, String brand, String description, double unitPrice,
-//                   int quantity, boolean active, int categoryId, int supplierId,
-//                   int purchases, int views) {
-//        this.name = name;
-//        this.brand = brand;
-//        this.description = description;
-//        this.unitPrice = unitPrice;
-//        this.quantity = quantity;
-//        this.active = active;
-//        this.categoryId = categoryId;
-//        this.supplierId = supplierId;
-//        this.purchases = purchases;
-//        this.views = views;
-//    }
 
     public int getId() {
         return id;

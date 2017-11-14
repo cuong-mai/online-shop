@@ -73,6 +73,11 @@
             <c:if test="${userClickProductDetail}">
                 <%@include file="./productDetail.jsp"%>
             </c:if>
+
+            <!-- Load Product Edit page -->
+            <c:if test="${userClickEditProduct}">
+                <%@include file="./productEdit.jsp"%>
+            </c:if>
         </div>
 
         <!-- Footer included -->

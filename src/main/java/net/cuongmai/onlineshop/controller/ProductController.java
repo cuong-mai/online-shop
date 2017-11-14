@@ -63,6 +63,7 @@ public class ProductController {
         }
 
         product.setViews(product.getViews() + 1);
+        productService.saveProduct(product);
 
         String previousPageUrl = request.getHeader("referer");
 
