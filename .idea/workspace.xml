@@ -6,16 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2746ddd-c573-4415-afe1-44adbd18333d" name="Default" comment="Add controller, view for displaying product details.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/online_shop_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/online_shop_war_exploded.xml" />
+    <list default="true" id="d2746ddd-c573-4415-afe1-44adbd18333d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/online-shop.iml" afterPath="$PROJECT_DIR$/online-shop.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/ProductController.java" afterPath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/ProductController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productDetail.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productDetail.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -573,7 +565,7 @@
       <workItem from="1510540402952" duration="11119000" />
       <workItem from="1510582155698" duration="250000" />
       <workItem from="1510582606249" duration="14834000" />
-      <workItem from="1510625478211" duration="9356000" />
+      <workItem from="1510625478211" duration="9510000" />
     </task>
     <task id="LOCAL-00001" summary="Add DAO, service interfaces and classes.&#10;Separate side bar and dynamically display Categories.">
       <created>1510463860890</created>
@@ -610,11 +602,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510596935990</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Handle NoHandlerFoundException. Define and handle ProductNotFoundException. Add error page.">
+      <created>1510637425996</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1510637425996</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83628000" />
+    <option name="totallyTimeSpent" value="83782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -679,7 +678,8 @@
     <MESSAGE value="Add Jacson for returning JSON to views.&#10;Add controllers and request mappings for displaying products." />
     <MESSAGE value="Add DataTables and JSON request mappings for display products" />
     <MESSAGE value="Add controller, view for displaying product details." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add controller, view for displaying product details." />
+    <MESSAGE value="Handle NoHandlerFoundException. Define and handle ProductNotFoundException. Add error page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Handle NoHandlerFoundException. Define and handle ProductNotFoundException. Add error page." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
