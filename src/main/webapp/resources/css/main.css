@@ -31,6 +31,10 @@ body {
     color: lightgrey;
 }
 
+.my-text-red {
+    color: red;
+}
+
 .my-data-table {
     text-align: center;
 }

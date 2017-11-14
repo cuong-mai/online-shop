@@ -29,7 +29,8 @@ $(document).ready(function() {
                     render: function(data, type, row, meta) {
                         var str = "<img src='" + "http://placehold.it/100x100" + "' alt='" + ""  + "'>";
                         return str;
-                    }
+                    },
+                    orderable: false
                 },
                 {
                     data: "name"
@@ -38,29 +39,38 @@ $(document).ready(function() {
                     data: "brand"
                 },
                 {
-                    data: "unitPrice"
-                    // ,
-                    // render: function (data, type, row, meta) {
-                    //     return "&dollar;" + data;
-                    // }
+                    data: "unitPrice",
+                    render: customRenderHelper.render.number(",", ".", 2, "$"),
+                    type: "numeric"
                 },
                 {
-                    data: "quantity"
+                    data: "quantity",
+                    render: function(data, type, row, meta) {
+                        if (data == 0) {
+                            data = "<span class='my-text-red'>Out of Stock</span>";
+                        }
+                        return data;
+                    },
+                    type: "natural"
                 },
                 {
-                    data: "id"
-                    ,
+                    data: "id",
                     render: function(data, type, row, meta) {
                         var str = "";
 
                         str += "<a href='" + window.contextRoot + "/product/detail?id=" + data + "' "
-                            + "class='btn btn-outline-primary'><span class='fa fa-eye'></span></a> &#160;";
-
-                        str += "<a href='" + window.contextRoot + "/SOMETHINGHERE?id=" + data + "' "
-                            + "class='btn btn-outline-primary'><span class='fa fa-cart-plus'></span></a>";
+                            + "class='btn btn-sm btn-outline-success'><span class='fa fa-eye'></span></a> &#160;";
+                        if (row.quantity < 1) {
+                            str += "<a href='" + window.contextRoot + "/cart/add?productId=" + data + "' "
+                                + "class='btn btn-sm btn-outline-secondary disabled'><span class='fa fa-cart-plus'></span></a>";
+                        } else {
+                            str += "<a href='" + window.contextRoot + "/cart/add?productId=" + data + "' "
+                                + "class='btn btn-sm btn-outline-primary'><span class='fa fa-cart-plus'></span></a>";
+                        }
 
                         return str;
-                    }
+                    },
+                    orderable: false
                 }
             ]
         });

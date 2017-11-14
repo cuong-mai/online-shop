@@ -82,6 +82,8 @@
         <script src="${js}/jquery.min.js"></script>
         <script src="${js}/bootstrap.bundle.min.js"></script>
         <script src="${js}/datatables.js"></script>
+        <script src="${js}/datatables-plugin-natural-sort.js"></script>
+        <script src="${js}/custom-render-helper.js"></script>
         <script src="${js}/main.js"></script>
 
     </div>
