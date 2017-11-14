@@ -12,10 +12,11 @@
                     <hr>
 
                     <form:form action="${contextRoot}/manage/product/save" method="post" modelAttribute="product">
-                        <div class="form-group row">
+                        <div class="form-group has-feedback row">
                             <label for="name" class="col-md-4 col-form-label">Product Name</label>
                             <div class="col-md-8">
                                 <form:input id="name" path="name" cssClass="form-control"/>
+                                <form:errors path="name" cssClass="form-control-feedback small my-text-red" element="em"/>
                             </div>
                         </div>
 
@@ -23,6 +24,7 @@
                             <label for="brand" class="col-md-4 col-form-label">Brand Name</label>
                             <div class="col-md-8">
                                 <form:input id="brand" path="brand" cssClass="form-control"/>
+                                <form:errors path="brand" cssClass="form-control-feedback small my-text-red" element="em"/>
                             </div>
                         </div>
 
@@ -30,13 +32,15 @@
                             <label for="description" class="col-md-4 col-form-label">Description</label>
                             <div class="col-md-8">
                                 <form:textarea id="description" path="description" cssClass="form-control"/>
+                                <form:errors path="description" cssClass="form-control-feedback small my-text-red" element="em"/>
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <label for="unitPrice" class="col-md-4 col-form-label">Unit Price</label>
                             <div class="col-md-8">
-                                <form:input type="number" id="unitPrice" path="unitPrice" cssClass="form-control"/>
+                                <form:input id="unitPrice" path="unitPrice" cssClass="form-control"/>
+                                <form:errors path="unitPrice" cssClass="form-control-feedback small my-text-red" element="em"/>
                             </div>
                         </div>
 
@@ -44,16 +48,21 @@
                             <label for="quantity" class="col-md-4 col-form-label">Qty. in Stock</label>
                             <div class="col-md-8">
                                 <form:input id="quantity" path="quantity" cssClass="form-control"/>
+                                <form:errors path="quantity" cssClass="form-control-feedback small my-text-red" element="em"/>
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <label for="categoryId" class="col-md-4 col-form-label">Category</label>
                             <div class="col-md-8">
-                                <form:select id="categoryId" path="categoryId" cssClass="form-control"
-                                             items="${categoryList}"
-                                             itemValue="id"
-                                             itemLabel="name" />
+                                <form:select id="categoryId" path="categoryId" cssClass="form-control">
+                                    <option value="0" disabled selected>Select a category</option>
+                                    <form:options
+                                            items="${categoryList}"
+                                            itemValue="id"
+                                            itemLabel="name"/>
+                                </form:select>
+                                <form:errors path="categoryId" cssClass="form-control-feedback small my-text-red" element="em"/>
                             </div>
                         </div>
 

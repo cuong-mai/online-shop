@@ -1,6 +1,10 @@
 package net.cuongmai.onlineshop.model;
 
 import javax.persistence.*;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 import java.util.UUID;
 
 @Entity
@@ -16,24 +20,30 @@ public class Product {
     private String code;
 
     @Column(name = "name")
+    @NotBlank(message = "Product name must not be empty!")
     private String name;
 
     @Column(name = "brand")
+    @NotBlank(message = "Brand name must not be empty!")
     private String brand;
 
     @Column(name = "description")
+    @NotBlank(message = "Description must not be empty!")
     private String description;
 
     @Column(name = "unit_price")
+    @Min(value = 1, message = "Please enter a valid unit price!")
     private double unitPrice;
 
     @Column(name = "quantity")
+    @Min(value = 0, message = "Quantity must not be negative!")
     private int quantity;
 
     @Column(name = "active")
     private boolean active;
 
     @Column(name = "category_id")
+    @Min(value = 1, message = "Please select a category!")
     private int categoryId;
 
     @Column(name = "supplier_id")

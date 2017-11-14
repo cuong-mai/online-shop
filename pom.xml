@@ -96,6 +96,19 @@
             <version>${jackson.version}</version>
         </dependency>
 
+        <!-- Validator -->
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>2.0.0.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>6.0.4.Final</version>
+        </dependency>
+
         <!--&lt;!&ndash; SLF4J Logging &ndash;&gt;-->
         <!--<dependency>-->
             <!--<groupId>ch.qos.logback</groupId>-->

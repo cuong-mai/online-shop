@@ -7,8 +7,10 @@ import net.cuongmai.onlineshop.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @Controller
@@ -47,7 +49,16 @@ public class ManagementController {
     }
 
     @PostMapping("/product/save")
-    public String saveProduct(@ModelAttribute Product product) {
+    public String saveProduct(@Valid @ModelAttribute Product product,
+                              BindingResult result,
+                              Model model) {
+
+        if (result.hasErrors()) {
+            model.addAttribute("userClickEditProduct", true);
+            model.addAttribute("title", "Edit Product");
+
+            return "page";
+        }
 
         productService.saveProduct(product);
 
