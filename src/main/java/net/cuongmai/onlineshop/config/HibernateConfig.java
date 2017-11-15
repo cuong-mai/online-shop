@@ -28,7 +28,7 @@ public class HibernateConfig {
 
         properties.put("hibernate.dialect", DATABASE_DIALECT);
         properties.put("hibernate.show_sql", "true");
-        properties.put("hibernate.format_sql", "true");
+        properties.put("hibernate.format_sql", "false");
 
         return properties;
     }

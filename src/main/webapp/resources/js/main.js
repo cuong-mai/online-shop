@@ -1,11 +1,8 @@
-// TODO: Function to set the active menu of Nav Bar
 $(document).ready(function() {
-//     $("nav li").click(function() {
-//        $(this).addClass("active");
-//        $(this).siblings().removeClass("active");
-//        console.log($(this));
-//     });
+    showProductListTable();
+});
 
+function showProductListTable() {
     var productJsonUrl = window.contextRoot +  "/json/product/list"
         + (window.categoryId == "" ? "" : "?categoryId=" + window.categoryId);
 
@@ -25,9 +22,11 @@ $(document).ready(function() {
             },
             columns: [
                 {
-                    data: "code",
+                    data: "id",
                     render: function(data, type, row, meta) {
-                        var str = "<img src='" + "http://placehold.it/100x100" + "' alt='" + ""  + "'>";
+                        var str = "<img src='" + window.contextRoot
+                            + "/resources/images/products/" + data + "/thumbnail.jpg' alt='" + row.name
+                            + "' class='my-img-product-list-thumbnail'>";
                         return str;
                     },
                     orderable: false
@@ -56,17 +55,26 @@ $(document).ready(function() {
                 {
                     data: "id",
                     render: function(data, type, row, meta) {
-                        var str = "";
 
-                        str += "<a href='" + window.contextRoot + "/product/detail?id=" + data + "' "
-                            + "class='btn btn-sm btn-outline-success'><span class='fa fa-eye'></span></a> &#160;";
+                        var editStr = "<div class='my-btn-wrapper-product-list'></div><a href='" + window.contextRoot
+                            + "/manage/product/edit?id=" + data + "' "
+                            + "class='btn btn-sm btn-outline-primary'><span class='fa fa-edit'></span></a></div>";
+
+                        var viewStr = "<div class='my-btn-wrapper-product-list'><a href='" + window.contextRoot
+                            + "/product/detail?id=" + data + "' "
+                            + "class='btn btn-sm btn-outline-primary'><span class='fa fa-eye'></span></a></div>";
+
                         if (row.quantity < 1) {
-                            str += "<a href='" + window.contextRoot + "/cart/add?productId=" + data + "' "
-                                + "class='btn btn-sm btn-outline-secondary disabled'><span class='fa fa-cart-plus'></span></a>";
+                            var cartStr = "<div class='my-btn-wrapper-product-list'><a href='" + window.contextRoot
+                                + "/cart/add?productId=" + data + "' "
+                                + "class='btn btn-sm btn-outline-light disabled'><span class='fa fa-cart-plus'></span></a></div>";
                         } else {
-                            str += "<a href='" + window.contextRoot + "/cart/add?productId=" + data + "' "
-                                + "class='btn btn-sm btn-outline-primary'><span class='fa fa-cart-plus'></span></a>";
+                            var cartStr = "<div class='my-btn-wrapper-product-list'><a href='" + window.contextRoot
+                                + "/cart/add?productId=" + data + "' "
+                                + "class='btn btn-sm btn-outline-primary'><span class='fa fa-cart-plus'></span></a></div>";
                         }
+
+                        var str = editStr + viewStr + cartStr;
 
                         return str;
                     },
@@ -75,4 +83,4 @@ $(document).ready(function() {
             ]
         });
     }
-});
+}

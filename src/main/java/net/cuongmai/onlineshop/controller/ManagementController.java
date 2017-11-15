@@ -4,12 +4,15 @@ import net.cuongmai.onlineshop.model.Category;
 import net.cuongmai.onlineshop.model.Product;
 import net.cuongmai.onlineshop.service.CategoryService;
 import net.cuongmai.onlineshop.service.ProductService;
+import net.cuongmai.onlineshop.util.FileUploadUtility;
+import net.cuongmai.onlineshop.validator.ProductValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.util.List;
 
@@ -49,9 +52,13 @@ public class ManagementController {
     }
 
     @PostMapping("/product/save")
-    public String saveProduct(@Valid @ModelAttribute Product product,
+    public String saveProduct(HttpServletRequest request,
+                              @Valid @ModelAttribute Product product,
                               BindingResult result,
                               Model model) {
+
+        ProductValidator productValidator = new ProductValidator();
+        productValidator.validate(product, result);
 
         if (result.hasErrors()) {
             model.addAttribute("userClickEditProduct", true);
@@ -61,6 +68,13 @@ public class ManagementController {
         }
 
         productService.saveProduct(product);
+
+        if (!product.getThumbnailImage().getOriginalFilename().equals("")) {
+            FileUploadUtility.uploadFile(request,
+                    product.getThumbnailImage(),
+                    Integer.toString(product.getId()),
+                    "thumbnail");
+        }
 
         return "redirect:/product/list";
     }

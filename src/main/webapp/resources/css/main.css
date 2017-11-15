@@ -35,6 +35,25 @@ body {
     color: red;
 }
 
+.my-img-product-list-thumbnail {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.my-img-product-detail-thumbnail {
+    max-height: 400px;
+    max-width: 100%;
+}
+
+.my-btn-wrapper-product-list {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/*.img-thumbnail {*/
+    /*max-height: 100px;*/
+/*}*/
+
 .my-data-table {
     text-align: center;
 }

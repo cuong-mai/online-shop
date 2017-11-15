@@ -11,7 +11,12 @@
                     <h5 class="card-title">Enter Product Information</h5>
                     <hr>
 
-                    <form:form action="${contextRoot}/manage/product/save" method="post" modelAttribute="product">
+                    <form:form
+                            action="${contextRoot}/manage/product/save"
+                            method="post"
+                            enctype="multipart/form-data"
+                            modelAttribute="product">
+
                         <div class="form-group has-feedback row">
                             <label for="name" class="col-md-4 col-form-label">Product Name</label>
                             <div class="col-md-8">
@@ -47,8 +52,16 @@
                         <div class="form-group row">
                             <label for="quantity" class="col-md-4 col-form-label">Qty. in Stock</label>
                             <div class="col-md-8">
-                                <form:input id="quantity" path="quantity" cssClass="form-control"/>
+                                <form:input type="number" id="quantity" path="quantity" cssClass="form-control"/>
                                 <form:errors path="quantity" cssClass="form-control-feedback small my-text-red" element="em"/>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="thumbnailImage" class="col-md-4 col-form-label">Thumbnail Image</label>
+                            <div class="col-md-8">
+                                <form:input type="file" id="thumbnailImage" path="thumbnailImage" cssClass="form-control form-control-file"/>
+                                <form:errors path="thumbnailImage" cssClass="form-control-feedback small my-text-red" element="em"/>
                             </div>
                         </div>
 

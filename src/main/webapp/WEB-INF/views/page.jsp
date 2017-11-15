@@ -24,11 +24,11 @@
         window.contextRoot = "${contextRoot}";
     </script>
 
-    <!-- Bootstrap core CSS -->
-    <link href="${css}/bootstrap.min.css" rel="stylesheet">
+    <%--<!-- Bootstrap core CSS -->--%>
+    <%--<link href="${css}/bootstrap.min.css" rel="stylesheet">--%>
 
-    <!-- Bootstrap Flatly Theme CSS -->
-    <link href="${css}/bootstrap.united.min.css" rel="stylesheet">
+    <!-- Bootstrap Theme CSS -->
+    <link href="${css}/bootstrap.yeti.min.css" rel="stylesheet">
 
     <!-- Font Awesome CSS -->
     <link href="${css}/font-awesome.min.css" rel="stylesheet">
@@ -45,8 +45,11 @@
 
     <div class="body-wrapper">
 
-            <!-- Navigation Bar included -->
-            <%@include file="./shared/navbar.jsp"%>
+        <!-- Navigation Bar included -->
+        <%@include file="./shared/navbar.jsp"%>
+
+        <!-- Carousel included -->
+        <%@include file="./shared/carousel.jsp"%>
 
         <div class="body-content">
             <!-- Load Home page content -->

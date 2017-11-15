@@ -18,8 +18,8 @@
                             window.categoryId = "";
                         </script>
 
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="${contextRoot}/home">Home</a></li>
+                        <ol class="breadcrumb bg-light">
+                            <li class="breadcrumb-item text-white"><a href="${contextRoot}/home">Home</a></li>
                             <li class="breadcrumb-item active">Products</li>
                         </ol>
                     </c:if>
@@ -40,15 +40,15 @@
 
             <div class="row">
                 <div class="col-sm-12">
-                    <table id="productListTable" class="table table-borderd my-data-table">
+                    <table id="productListTable" class="table my-data-table">
                         <thead>
-                            <tr class="text-center">
-                                <th></th>
-                                <th>Name</th>
-                                <th>Brand</th>
-                                <th>Price</th>
-                                <th>In Stock</th>
-                                <th></th>
+                            <tr>
+                                <th class="border-bottom-0"></th>
+                                <th class="border-bottom-0">Name</th>
+                                <th class="border-bottom-0">Brand</th>
+                                <th class="border-bottom-0">Price</th>
+                                <th class="border-bottom-0">In Stock</th>
+                                <th class="border-bottom-0"></th>
                             </tr>
                         </thead>
                     </table>

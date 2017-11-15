@@ -1,10 +1,10 @@
 package net.cuongmai.onlineshop.model;
 
+import org.springframework.web.multipart.MultipartFile;
+
 import javax.persistence.*;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
 import java.util.UUID;
 
 @Entity
@@ -54,6 +54,9 @@ public class Product {
 
     @Column(name = "views")
     private int views;
+
+    @Transient
+    private MultipartFile thumbnailImage;
 
     public Product() {
         setCode();
@@ -156,5 +159,13 @@ public class Product {
 
     public void setViews(int views) {
         this.views = views;
+    }
+
+    public MultipartFile getThumbnailImage() {
+        return thumbnailImage;
+    }
+
+    public void setThumbnailImage(MultipartFile thumbnailImage) {
+        this.thumbnailImage = thumbnailImage;
     }
 }

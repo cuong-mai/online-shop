@@ -15,8 +15,9 @@
     <!-- Product details -->
     <div class="row">
         <div class="col-xs-12 col-sm-4">
-            <div class="img-thumbnail">
-                <img src="http://placehold.it/900x900" alt="" class="img img-fluid">
+            <div class="img-thumbnail text-center">
+                <img src="${contextRoot}/resources/images/products/${product.id}/thumbnail.jpg"
+                     alt="${product.name}" class="my-img-product-detail-thumbnail">
             </div>
         </div>
         <div class="col-xs-12 col-sm-8">
@@ -35,7 +36,7 @@
                     <h6>Qty. in Stock: <span class="my-text-red">Out of Stock</span></h6>
                     <hr>
 
-                    <a href="javascript:void(0)" class="btn btn-outline-secondary disabled">
+                    <a href="javascript:void(0)" class="btn btn-outline-light disabled">
                         <span class="fa fa-cart-plus"></span> Add to Cart
                     </a>
                 </c:when>
@@ -43,7 +44,7 @@
                     <h6>Qty. in Stock: ${product.quantity}</h6>
                     <hr>
 
-                    <a href="${contextRoot}/cart/add?productId=${product.id}" class="btn btn-primary">
+                    <a href="${contextRoot}/cart/add?productId=${product.id}" class="btn btn-success">
                         <span class="fa fa-cart-plus"></span> Add to Cart
                     </a>
                 </c:otherwise>
@@ -51,7 +52,7 @@
 
 
             <%--Get link of previous page for href --%>
-            <a href="${previousPageUrl}" class="btn btn-success">
+            <a href="${previousPageUrl}" class="btn btn-primary">
                 Back
             </a>
 
