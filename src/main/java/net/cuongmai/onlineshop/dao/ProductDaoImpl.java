@@ -133,6 +133,19 @@ public class ProductDaoImpl implements ProductDao {
     }
 
     @Override
+    public boolean toggleProductActivation(Product product) {
+        try {
+            product.setActive(!product.isActive());
+            saveProduct(product);
+            return true;
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            return false;
+        }
+    }
+
+    @Override
     public boolean activateProduct(Product product) {
         try {
             product.setActive(true);

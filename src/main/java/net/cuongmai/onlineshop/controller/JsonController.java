@@ -12,21 +12,33 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-@RequestMapping("/json")
 public class JsonController {
 
     @Autowired
     private ProductService productService;
 
-    @RequestMapping("/product/list")
+    @RequestMapping("/json/product/list/active")
     @ResponseBody
-    public List<Product> getJsonProducts(@RequestParam(required = false) Integer categoryId) {
+    public List<Product> getJsonActiveProducts(@RequestParam(required = false) Integer categoryId) {
         List<Product> productList = new ArrayList<>();
 
         if (categoryId != null) {
             productList = productService.getActiveProductsByCategory(categoryId);
         } else {
             productList = productService.getAllActiveProducts();
+        }
+        return productList;
+    }
+
+    @RequestMapping("/admin/json/product/list/all")
+    @ResponseBody
+    public List<Product> getJsonAllProducts(@RequestParam(required = false) Integer categoryId) {
+        List<Product> productList = new ArrayList<>();
+
+        if (categoryId != null) {
+            productList = productService.getAllProductsByCategory(categoryId);
+        } else {
+            productList = productService.getAllProducts();
         }
         return productList;
     }

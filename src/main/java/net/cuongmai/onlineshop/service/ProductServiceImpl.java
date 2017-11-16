@@ -58,6 +58,12 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     @Transactional
+    public boolean toggleProductActivation(Product product) {
+        return productDao.toggleProductActivation(product);
+    }
+
+    @Override
+    @Transactional
     public boolean activateProduct(Product product) {
         return productDao.activateProduct(product);
     }

@@ -17,8 +17,8 @@ import javax.validation.Valid;
 import java.util.List;
 
 @Controller
-@RequestMapping("/manage")
-public class ManagementController {
+@RequestMapping("/admin")
+public class AdminController {
 
     @Autowired
     private ProductService productService;
@@ -29,6 +29,24 @@ public class ManagementController {
     @ModelAttribute("categoryList")
     public List<Category> getCategoryList() {
         return categoryService.getAllCategories();
+    }
+
+    @RequestMapping({"", "/"})
+    public String showAdminPortal(Model model) {
+
+        model.addAttribute("userClickAdmin", true);
+        model.addAttribute("title", "Admin Portal");
+
+        return "page";
+    }
+
+    @RequestMapping("/product/list")
+    public String showProductList(Model model) {
+
+        model.addAttribute("userClickAdminProduct", true);
+        model.addAttribute("title", "Manage Products");
+
+        return "page";
     }
 
     @GetMapping("/product/edit")
@@ -49,6 +67,15 @@ public class ManagementController {
         model.addAttribute("title", "Edit Product");
 
         return "page";
+    }
+
+    @PostMapping("/product/toggleActivation")
+    @ResponseBody
+    public boolean toggleProductActivation(@RequestParam Integer id) {
+
+        Product product = productService.getProductById(id);
+
+        return productService.toggleProductActivation(product);
     }
 
     @PostMapping("/product/save")
@@ -76,6 +103,6 @@ public class ManagementController {
                     "thumbnail");
         }
 
-        return "redirect:/product/list";
+        return "redirect:/admin/product/list";
     }
 }

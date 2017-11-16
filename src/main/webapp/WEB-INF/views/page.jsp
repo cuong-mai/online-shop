@@ -43,45 +43,53 @@
 
 <body>
 
-    <div class="body-wrapper">
+    <div class="container-fluid body-wrapper">
+        <%--<div class="row">--%>
+            <%--<div class="col-sm-12">--%>
+                <!-- Navigation Bar included -->
+                <%@include file="./shared/navbar.jsp"%>
+            <%--</div>--%>
+        <%--</div>--%>
 
-        <!-- Navigation Bar included -->
-        <%@include file="./shared/navbar.jsp"%>
+        <div class="row">
+            <div class="offset-sm-1 col-sm-10">
 
-        <!-- Carousel included -->
-        <%@include file="./shared/carousel.jsp"%>
+                <div class="body-content">
 
-        <div class="body-content">
-            <!-- Load Home page content -->
-            <c:if test="${userClickHome == true}">
-                <%@include file="./home.jsp"%>
-            </c:if>
+                    <!-- Load Home page content -->
+                    <c:if test="${userClickHome == true}">
+                        <%@include file="./home.jsp"%>
+                    </c:if>
 
-            <!-- Load About page content -->
-            <c:if test="${userClickAbout == true}">
-                <%@include file="./about.jsp"%>
-            </c:if>
+                    <!-- Load About page content -->
+                    <c:if test="${userClickAbout == true}">
+                        <%@include file="./about.jsp"%>
+                    </c:if>
 
-            <!-- Load Contact page content -->
-            <c:if test="${userClickContact == true}">
-                <%@include file="./contact.jsp"%>
-            </c:if>
+                    <!-- Load Contact page content -->
+                    <c:if test="${userClickContact == true}">
+                        <%@include file="./contact.jsp"%>
+                    </c:if>
 
-            <!-- Load View Products page content -->
-            <c:if test="${userClickAllProducts == true || userClickCategoryProducts == true}">
-                <%@include file="./productList.jsp"%>
-            </c:if>
+                    <!-- Load View Products page content -->
+                    <c:if test="${userClickAllProducts == true || userClickCategoryProducts == true}">
+                        <%@include file="./productList.jsp"%>
+                    </c:if>
 
-            <!-- Load Product Details view page content -->
-            <c:if test="${userClickProductDetail}">
-                <%@include file="./productDetail.jsp"%>
-            </c:if>
+                    <!-- Load Product Details view page content -->
+                    <c:if test="${userClickProductDetail}">
+                        <%@include file="./productDetail.jsp"%>
+                    </c:if>
 
-            <!-- Load Product Edit page -->
-            <c:if test="${userClickEditProduct}">
-                <%@include file="./productEdit.jsp"%>
-            </c:if>
+                    <!-- Load Admin Portal page -->
+                    <c:if test="${userClickAdmin == true|| userClickAdminProduct == true}">
+                        <%@include file="./admin.jsp"%>
+                    </c:if>
+
+                </div>
+            </div>
         </div>
+
 
         <!-- Footer included -->
         <%@include file="./shared/footer.jsp"%>
@@ -92,6 +100,7 @@
         <script src="${js}/datatables.js"></script>
         <script src="${js}/datatables-plugin-natural-sort.js"></script>
         <script src="${js}/custom-render-helper.js"></script>
+        <script src="${js}/bootbox.min.js"></script>
         <script src="${js}/main.js"></script>
 
     </div>

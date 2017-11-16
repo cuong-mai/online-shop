@@ -20,6 +20,8 @@ public interface ProductService {
 
     boolean saveProduct(Product product);
 
+    boolean toggleProductActivation(Product product);
+
     boolean activateProduct(Product product);
 
     boolean deactivateProduct(Product product);
