@@ -60,17 +60,20 @@ public class AdminController {
                                   Model model) {
 
         Product product = new Product();
+
         // TODO: Remove this setSupplierId
         product.setSupplierId(4);
 
         if (id != null) {
             product = productService.getProductById(id);
+            model.addAttribute("title", "Update Product");
+        } else {
+            model.addAttribute("title", "Add New Product");
         }
 
         model.addAttribute("product", product);
 
         model.addAttribute("userClickEditProduct", true);
-        model.addAttribute("title", "Edit Product");
 
         return "page";
     }

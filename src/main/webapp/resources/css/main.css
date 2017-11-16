@@ -56,6 +56,7 @@ body {
 
 .my-data-table td {
     vertical-align: middle;
+    font-size: large;
 }
 
 .my-breadcrumb-item {

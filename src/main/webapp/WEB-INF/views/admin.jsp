@@ -32,7 +32,7 @@
                         <li class="breadcrumb-item my-breadcrumb-item"><a href="${contextRoot}/home">Home</a></li>
                         <li class="breadcrumb-item my-breadcrumb-item"><a href="${contextRoot}/admin">Admin Portal</a></li>
                         <li class="breadcrumb-item my-breadcrumb-item"><a href="${contextRoot}/admin/product/list">Manage Products</a></li>
-                        <li class="breadcrumb-item my-breadcrumb-item active">Edit Product Information</li>
+                        <li class="breadcrumb-item my-breadcrumb-item active">${title}</li>
                     </ol>
                 </c:if>
             </div>
@@ -41,7 +41,7 @@
         <!-- Edit Product Form loaded --!>
         <c:if test="${userClickEditProduct == true}">
             <%@include file="./productEdit.jsp"%>
-            <hr>
+            <br>
         </c:if>
 
         <!-- Product List for Admin page included -->

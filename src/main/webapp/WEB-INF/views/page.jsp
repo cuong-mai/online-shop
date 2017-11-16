@@ -44,49 +44,41 @@
 <body>
 
     <div class="container-fluid body-wrapper">
-        <%--<div class="row">--%>
-            <%--<div class="col-sm-12">--%>
-                <!-- Navigation Bar included -->
-                <%@include file="./shared/navbar.jsp"%>
-            <%--</div>--%>
-        <%--</div>--%>
+        <%@include file="./shared/navbar.jsp"%>
 
-        <div class="row">
-            <div class="offset-sm-1 col-sm-10">
+        <div ="row">
 
-                <div class="body-content">
+            <div class="col-sm-12 body-content">
 
-                    <!-- Load Home page content -->
-                    <c:if test="${userClickHome == true}">
-                        <%@include file="./home.jsp"%>
-                    </c:if>
+                <!-- Load Home page content -->
+                <c:if test="${userClickHome == true}">
+                    <%@include file="./home.jsp"%>
+                </c:if>
 
-                    <!-- Load About page content -->
-                    <c:if test="${userClickAbout == true}">
-                        <%@include file="./about.jsp"%>
-                    </c:if>
+                <!-- Load About page content -->
+                <c:if test="${userClickAbout == true}">
+                    <%@include file="./about.jsp"%>
+                </c:if>
 
-                    <!-- Load Contact page content -->
-                    <c:if test="${userClickContact == true}">
-                        <%@include file="./contact.jsp"%>
-                    </c:if>
+                <!-- Load Contact page content -->
+                <c:if test="${userClickContact == true}">
+                    <%@include file="./contact.jsp"%>
+                </c:if>
 
-                    <!-- Load View Products page content -->
-                    <c:if test="${userClickAllProducts == true || userClickCategoryProducts == true}">
-                        <%@include file="./productList.jsp"%>
-                    </c:if>
+                <!-- Load View Products page content -->
+                <c:if test="${userClickAllProducts == true || userClickCategoryProducts == true}">
+                    <%@include file="./productList.jsp"%>
+                </c:if>
 
-                    <!-- Load Product Details view page content -->
-                    <c:if test="${userClickProductDetail}">
-                        <%@include file="./productDetail.jsp"%>
-                    </c:if>
+                <!-- Load Product Details view page content -->
+                <c:if test="${userClickProductDetail}">
+                    <%@include file="./productDetail.jsp"%>
+                </c:if>
 
-                    <!-- Load Admin Portal page -->
-                    <c:if test="${userClickAdmin == true || userClickAdminProduct == true || userClickEditProduct == true}">
-                        <%@include file="./admin.jsp"%>
-                    </c:if>
-
-                </div>
+                <!-- Load Admin Portal page -->
+                <c:if test="${userClickAdmin == true || userClickAdminProduct == true || userClickEditProduct == true}">
+                    <%@include file="./admin.jsp"%>
+                </c:if>
             </div>
         </div>
 

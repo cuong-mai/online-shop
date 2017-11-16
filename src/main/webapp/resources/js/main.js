@@ -13,7 +13,7 @@ function showProductListTable() {
 
         $table.DataTable({
             language: {
-                lengthMenu: "Show _MENU_ products per page",
+                lengthMenu: "Show  _MENU_ products  per page",
                 info: "Showing _START_ to _END_ of _TOTAL_ products",
             },
             iDisplayLength: 20,
@@ -97,7 +97,7 @@ function showProductListTableAdmin() {
 
         $table.DataTable({
             language: {
-                lengthMenu: "Show _MENU_ products per page",
+                lengthMenu: "Show  _MENU_  products per page",
                 info: "Showing _START_ to _END_ of _TOTAL_ products",
             },
             iDisplayLength: -1,

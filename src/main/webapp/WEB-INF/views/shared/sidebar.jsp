@@ -8,7 +8,7 @@
     </c:forEach>
 </div>
 
-<hr>
+<br>
 
 <div class="list-group">
     <div class="list-group-item bg-primary text-white">Brands</div>
