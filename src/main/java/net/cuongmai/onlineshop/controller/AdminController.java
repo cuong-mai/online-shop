@@ -6,11 +6,13 @@ import net.cuongmai.onlineshop.service.CategoryService;
 import net.cuongmai.onlineshop.service.ProductService;
 import net.cuongmai.onlineshop.util.FileUploadUtility;
 import net.cuongmai.onlineshop.validator.ProductValidator;
+import org.apache.commons.io.FilenameUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
@@ -19,6 +21,10 @@ import java.util.List;
 @Controller
 @RequestMapping("/admin")
 public class AdminController {
+
+    public static final String RESOURCE_IMAGE_PATH = "/resources/images/products";
+    public static final String THUMBNAIL_IMAGE_FILENAME = "thumbnail";
+    public static final String THUMBNAIL_IMAGE_FILE_EXTENSION = "jpg";
 
     @Autowired
     private ProductService productService;
@@ -94,14 +100,25 @@ public class AdminController {
             return "page";
         }
 
+        // Save once before uploading image to have ID for generating the path
         productService.saveProduct(product);
 
         if (!product.getThumbnailImage().getOriginalFilename().equals("")) {
+
+            MultipartFile productThumbnailImage = product.getThumbnailImage();
+
+            String fileNameWithExtension = THUMBNAIL_IMAGE_FILENAME + "." + THUMBNAIL_IMAGE_FILE_EXTENSION;
             FileUploadUtility.uploadFile(request,
-                    product.getThumbnailImage(),
-                    Integer.toString(product.getId()),
-                    "thumbnail");
+                    productThumbnailImage,
+                    RESOURCE_IMAGE_PATH + "/" + Integer.toString(product.getId()),
+                    fileNameWithExtension);
+
+            product.setThumbnailPath(RESOURCE_IMAGE_PATH + "/" +
+                    Integer.toString(product.getId()) + "/" +
+                    fileNameWithExtension);
         }
+
+        productService.saveProduct(product);
 
         return "redirect:/admin/product/list";
     }

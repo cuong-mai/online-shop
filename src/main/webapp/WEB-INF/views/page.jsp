@@ -82,7 +82,7 @@
                     </c:if>
 
                     <!-- Load Admin Portal page -->
-                    <c:if test="${userClickAdmin == true|| userClickAdminProduct == true}">
+                    <c:if test="${userClickAdmin == true || userClickAdminProduct == true || userClickEditProduct == true}">
                         <%@include file="./admin.jsp"%>
                     </c:if>
 

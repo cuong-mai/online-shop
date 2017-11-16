@@ -347,64 +347,68 @@
       <DataType>int(11)|0</DataType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
     </column>
-    <index id="95" parent="20" name="fk_product_category_id">
+    <column id="95" parent="20" name="thumbnail_path">
+      <Position>13</Position>
+      <DataType>varchar(512)|0</DataType>
+    </column>
+    <index id="96" parent="20" name="fk_product_category_id">
       <ColNames>category_id</ColNames>
     </index>
-    <index id="96" parent="20" name="fk_product_supplier_id">
+    <index id="97" parent="20" name="fk_product_supplier_id">
       <ColNames>supplier_id</ColNames>
     </index>
-    <key id="97" parent="20" name="PRIMARY">
+    <key id="98" parent="20" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="98" parent="20" name="fk_product_category_id">
+    <foreign-key id="99" parent="20" name="fk_product_category_id">
       <ColNames>category_id</ColNames>
       <RefSchemaName>online_shop</RefSchemaName>
       <RefTableName>category</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="99" parent="20" name="fk_product_supplier_id">
+    <foreign-key id="100" parent="20" name="fk_product_supplier_id">
       <ColNames>supplier_id</ColNames>
       <RefSchemaName>online_shop</RefSchemaName>
       <RefTableName>user_detail</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="100" parent="21" name="id">
+    <column id="101" parent="21" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="101" parent="21" name="first_name">
+    <column id="102" parent="21" name="first_name">
       <Position>2</Position>
       <DataType>varchar(50)|0</DataType>
     </column>
-    <column id="102" parent="21" name="last_name">
+    <column id="103" parent="21" name="last_name">
       <Position>3</Position>
       <DataType>varchar(50)|0</DataType>
     </column>
-    <column id="103" parent="21" name="role">
+    <column id="104" parent="21" name="role">
       <Position>4</Position>
       <DataType>varchar(50)|0</DataType>
     </column>
-    <column id="104" parent="21" name="enabled">
+    <column id="105" parent="21" name="enabled">
       <Position>5</Position>
       <DataType>tinyint(1)|0</DataType>
     </column>
-    <column id="105" parent="21" name="password">
+    <column id="106" parent="21" name="password">
       <Position>6</Position>
       <DataType>varchar(60)|0</DataType>
     </column>
-    <column id="106" parent="21" name="email">
+    <column id="107" parent="21" name="email">
       <Position>7</Position>
       <DataType>varchar(100)|0</DataType>
     </column>
-    <column id="107" parent="21" name="contact_number">
+    <column id="108" parent="21" name="contact_number">
       <Position>8</Position>
       <DataType>varchar(15)|0</DataType>
     </column>
-    <key id="108" parent="21" name="PRIMARY">
+    <key id="109" parent="21" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

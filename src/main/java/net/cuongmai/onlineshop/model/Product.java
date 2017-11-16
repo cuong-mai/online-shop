@@ -55,6 +55,9 @@ public class Product {
     @Column(name = "views")
     private int views;
 
+    @Column(name = "thumbnail_path")
+    private String thumbnailPath;
+
     @Transient
     private MultipartFile thumbnailImage;
 
@@ -167,5 +170,17 @@ public class Product {
 
     public void setThumbnailImage(MultipartFile thumbnailImage) {
         this.thumbnailImage = thumbnailImage;
+    }
+
+    public String getThumbnailPath() {
+        return thumbnailPath;
+    }
+
+    public void setThumbnailPath(String thumbnailPath) {
+        this.thumbnailPath = thumbnailPath;
+    }
+
+    public boolean hasThumbnailImage() {
+        return !getThumbnailPath().equals("");
     }
 }

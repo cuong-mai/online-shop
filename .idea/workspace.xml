@@ -6,22 +6,29 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2746ddd-c573-4415-afe1-44adbd18333d" name="Default" comment="Add upload and validation for product thumbnail image.&#10;Move carousel to top of all pages.&#10;Change theme to Yeti.">
+    <list default="true" id="d2746ddd-c573-4415-afe1-44adbd18333d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.flatly.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.litera.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.lumen.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.materia.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.sandstone.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.superhero.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.united.min.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/online_shop_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/online_shop_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/4aee590d-e913-49b5-8556-b6bc65aaf394.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/4aee590d-e913-49b5-8556-b6bc65aaf394.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/JsonController.java" afterPath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/JsonController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/dao/ProductDao.java" afterPath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/dao/ProductDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/dao/ProductDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/dao/ProductDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/service/ProductService.java" afterPath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/service/ProductService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/service/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/service/ProductServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/online-shop.iml" afterPath="$PROJECT_DIR$/online-shop.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/AdminController.java" afterPath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/AdminController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/model/Product.java" afterPath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/model/Product.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/util/FileUploadUtility.java" afterPath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/util/FileUploadUtility.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/validator/ProductValidator.java" afterPath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/validator/ProductValidator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/carousel.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/carousel.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/sidebar.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/sidebar.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productEdit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productEdit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/sidebarAdmin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/sidebarAdmin.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/ManagementController.java" afterPath="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/AdminController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,105 +68,71 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48586118">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="94">
-                  <caret line="117" column="75" lean-forward="false" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="75" />
-                  <folding>
-                    <marker date="1510810860177" expanded="true" signature="3610:8499" ph="{...}" />
-                    <marker date="1510810860177" expanded="true" signature="3683:8492" ph="{...}" />
-                    <marker date="1510810860177" expanded="true" signature="4293:7019" ph="[...]" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="373">
-                  <caret line="71" column="10" lean-forward="false" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="894">
-                  <caret line="97" column="37" lean-forward="false" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="productListTableAdmin.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productListTableAdmin.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/AdminController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="166">
-                  <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/service/ProductServiceImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="316">
-                  <caret line="61" column="59" lean-forward="false" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
-                  <folding>
-                    <element signature="e#1595#1596#0" expanded="true" />
-                    <element signature="e#1661#1662#0" expanded="true" />
-                    <element signature="e#1749#1750#0" expanded="true" />
-                    <element signature="e#1807#1808#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/model/Product.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="127" column="21" lean-forward="true" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="207" column="35" lean-forward="false" selection-start-line="207" selection-start-column="35" selection-end-line="207" selection-end-column="35" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="143" column="37" lean-forward="false" selection-start-line="143" selection-start-column="37" selection-end-line="143" selection-end-column="37" />
+              <folding>
+                <marker date="1510848092556" expanded="true" signature="3610:8496" ph="{...}" />
+                <marker date="1510848092556" expanded="true" signature="3683:8489" ph="{...}" />
+                <marker date="1510848092556" expanded="true" signature="4293:7016" ph="[...]" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="113" lean-forward="false" selection-start-line="33" selection-start-column="113" selection-end-line="33" selection-end-column="113" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebarAdmin.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/sidebarAdmin.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productEdit.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productEdit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="69" column="85" lean-forward="false" selection-start-line="69" selection-start-column="85" selection-end-line="69" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product" pinned="false" current-in-tab="false">
+        <entry file="das://table:/152ada14/4aee590d-e913-49b5-8556-b6bc65aaf394/online_shop.product">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="102" column="21" lean-forward="false" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -206,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/PageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/test/CategoryTestCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/dao/CategoryDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/dao/CategoryDaoImpl.java" />
@@ -223,15 +195,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/custom-render-helper.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/datatables-currency.js" />
         <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/config/HibernateConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/util/FileUploadUtility.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/model/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/ManagementController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productEdit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/validator/ProductValidator.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.lumen.min.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.litera.min.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.materia.min.css" />
@@ -243,20 +210,26 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/sidebar.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/carousel.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/sidebarAdmin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productListAdmin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productListTableAdmin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" />
         <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/JsonController.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/dao/ProductDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/service/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" />
+        <option value="src:table:/152ada14/4aee590d-e913-49b5-8556-b6bc65aaf394/online_shop.product" />
+        <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/model/Product.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/validator/ProductValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/util/FileUploadUtility.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productEdit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/sidebarAdmin.jsp" />
       </list>
     </option>
   </component>
@@ -305,8 +278,9 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -399,6 +373,24 @@
               <item name="online-shop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="onlineshop" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="onlineshop" type="462c0819:PsiDirectoryNode" />
+              <item name="validator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -484,7 +476,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -702,7 +693,8 @@
       <workItem from="1510669765118" duration="30344000" />
       <workItem from="1510711297484" duration="15117000" />
       <workItem from="1510754350973" duration="24312000" />
-      <workItem from="1510801288579" duration="9735000" />
+      <workItem from="1510801288579" duration="9869000" />
+      <workItem from="1510839456102" duration="11324000" />
     </task>
     <task id="LOCAL-00001" summary="Add DAO, service interfaces and classes.&#10;Separate side bar and dynamically display Categories.">
       <created>1510463860890</created>
@@ -781,11 +773,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510728495428</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add control, view for Admin Portal - Manage Products (list).&#10;Handle activate/deactivate products.">
+      <created>1510811144438</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1510811144438</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163290000" />
+    <option name="totallyTimeSpent" value="174748000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -819,12 +818,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26547456" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3727648" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19794345" sideWeight="0.5081967" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20308483" sideWeight="0.4918033" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20565553" sideWeight="0.4918033" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -894,7 +893,8 @@
     <MESSAGE value="ide" />
     <MESSAGE value="Add validation before saving a product (name, brand, description, unitPrice, quantity, category)." />
     <MESSAGE value="Add upload and validation for product thumbnail image.&#10;Move carousel to top of all pages.&#10;Change theme to Yeti." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add upload and validation for product thumbnail image.&#10;Move carousel to top of all pages.&#10;Change theme to Yeti." />
+    <MESSAGE value="Add control, view for Admin Portal - Manage Products (list).&#10;Handle activate/deactivate products." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add control, view for Admin Portal - Manage Products (list).&#10;Handle activate/deactivate products." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -984,37 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://src:table:/152ada14/4aee590d-e913-49b5-8556-b6bc65aaf394/online_shop.product">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/config/HibernateConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1023,54 +992,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/152ada14/4aee590d-e913-49b5-8556-b6bc65aaf394/online_shop.product">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/validator/ProductValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#297#298#0" expanded="false" />
-            <element signature="e#342#343#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/products/1/thumbnail.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/util/FileUploadUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.lumen.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="147464" lean-forward="false" selection-start-line="11" selection-start-column="147464" selection-end-line="11" selection-end-column="147464" />
-          <folding>
-            <element signature="e#60051#60251#2" expanded="false" />
-            <element signature="e#60375#60524#2" expanded="false" />
-            <element signature="e#60672#60818#2" expanded="false" />
-            <element signature="e#61323#61486#1" expanded="false" />
-            <element signature="e#72057#72300#2" expanded="false" />
-            <element signature="e#73175#73424#2" expanded="false" />
-            <element signature="e#100580#100770#2" expanded="false" />
-            <element signature="e#100816#101006#2" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1078,16 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="145345" lean-forward="false" selection-start-line="11" selection-start-column="145345" selection-end-line="11" selection-end-column="145345" />
-          <folding>
-            <element signature="e#60134#60334#2" expanded="false" />
-            <element signature="e#60458#60607#2" expanded="false" />
-            <element signature="e#60755#60901#2" expanded="false" />
-            <element signature="e#61409#61572#1" expanded="false" />
-            <element signature="e#72138#72381#2" expanded="false" />
-            <element signature="e#73222#73471#2" expanded="false" />
-            <element signature="e#100636#100826#2" expanded="false" />
-            <element signature="e#100872#101062#2" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1095,16 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="145345" lean-forward="false" selection-start-line="11" selection-start-column="145345" selection-end-line="11" selection-end-column="145345" />
-          <folding>
-            <element signature="e#60134#60334#2" expanded="false" />
-            <element signature="e#60458#60607#2" expanded="false" />
-            <element signature="e#60755#60901#2" expanded="false" />
-            <element signature="e#61409#61572#1" expanded="false" />
-            <element signature="e#72138#72381#2" expanded="false" />
-            <element signature="e#73222#73471#2" expanded="false" />
-            <element signature="e#100636#100826#2" expanded="false" />
-            <element signature="e#100872#101062#2" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1112,16 +1022,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="948">
           <caret line="11" column="144337" lean-forward="false" selection-start-line="11" selection-start-column="144337" selection-end-line="11" selection-end-column="144337" />
-          <folding>
-            <element signature="e#60115#60315#2" expanded="false" />
-            <element signature="e#60439#60588#2" expanded="false" />
-            <element signature="e#60736#60882#2" expanded="false" />
-            <element signature="e#61390#61553#1" expanded="false" />
-            <element signature="e#72100#72343#2" expanded="false" />
-            <element signature="e#73178#73427#2" expanded="false" />
-            <element signature="e#100554#100744#2" expanded="false" />
-            <element signature="e#100790#100980#2" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,16 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="11" column="144724" lean-forward="true" selection-start-line="11" selection-start-column="144724" selection-end-line="11" selection-end-column="144724" />
-          <folding>
-            <element signature="e#60047#60247#2" expanded="false" />
-            <element signature="e#60371#60520#2" expanded="false" />
-            <element signature="e#60668#60814#2" expanded="false" />
-            <element signature="e#61320#61483#1" expanded="false" />
-            <element signature="e#72039#72282#2" expanded="false" />
-            <element signature="e#73141#73391#2" expanded="false" />
-            <element signature="e#100449#100639#2" expanded="false" />
-            <element signature="e#100685#100875#2" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1189,22 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productEdit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/sidebarAdmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1213,26 +1088,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="65" column="44" lean-forward="false" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="100" lean-forward="false" selection-start-line="24" selection-start-column="100" selection-end-line="24" selection-end-column="100" />
           <folding />
         </state>
       </provider>
@@ -1253,14 +1112,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="71" column="10" lean-forward="false" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1271,14 +1122,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/jquery-3.2.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="2" column="10417" lean-forward="false" selection-start-line="2" selection-start-column="10417" selection-end-line="2" selection-end-column="10417" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/jquery-3.2.1.min.js" />
     <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/JsonController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
@@ -1295,22 +1139,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="127" column="21" lean-forward="true" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/dao/ProductDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1489">
-          <caret line="138" column="22" lean-forward="true" selection-start-line="138" selection-start-column="22" selection-end-line="138" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1321,37 +1149,157 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/service/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
+        <state relative-caret-position="748">
           <caret line="61" column="59" lean-forward="false" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
           <folding>
-            <element signature="e#1595#1596#0" expanded="true" />
-            <element signature="e#1661#1662#0" expanded="true" />
-            <element signature="e#1749#1750#0" expanded="true" />
-            <element signature="e#1807#1808#0" expanded="true" />
+            <element signature="e#1595#1596#0" expanded="false" />
+            <element signature="e#1661#1662#0" expanded="false" />
+            <element signature="e#1749#1750#0" expanded="false" />
+            <element signature="e#1807#1808#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="894">
-          <caret line="97" column="37" lean-forward="false" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+        <state relative-caret-position="231">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/AdminController.java">
+    <entry file="das://src:table:/152ada14/4aee590d-e913-49b5-8556-b6bc65aaf394/online_shop.product">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+        <state relative-caret-position="17">
+          <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="65" column="44" lean-forward="false" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/dao/ProductDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="138" column="22" lean-forward="false" selection-start-line="138" selection-start-column="22" selection-end-line="138" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-986">
+          <caret line="54" column="27" lean-forward="false" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+          <folding>
+            <element signature="e#3873#3874#0" expanded="true" />
+            <element signature="e#3926#3927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/util/FileUploadUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/validator/ProductValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="e#640#661#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="207" column="35" lean-forward="false" selection-start-line="207" selection-start-column="35" selection-end-line="207" selection-end-column="35" />
+        <state relative-caret-position="901">
+          <caret line="143" column="37" lean-forward="false" selection-start-line="143" selection-start-column="37" selection-end-line="143" selection-end-column="37" />
+          <folding>
+            <marker date="1510848092556" expanded="true" signature="3610:8496" ph="{...}" />
+            <marker date="1510848092556" expanded="true" signature="3683:8489" ph="{...}" />
+            <marker date="1510848092556" expanded="true" signature="4293:7016" ph="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="113" lean-forward="false" selection-start-line="33" selection-start-column="113" selection-end-line="33" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="69" column="85" lean-forward="false" selection-start-line="69" selection-start-column="85" selection-end-line="69" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/152ada14/4aee590d-e913-49b5-8556-b6bc65aaf394/online_shop.product">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/cuongmai/onlineshop/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="102" column="21" lean-forward="false" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/sidebarAdmin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding />
         </state>
       </provider>

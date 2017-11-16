@@ -12,7 +12,7 @@
                     <hr>
 
                     <form:form
-                            action="${contextRoot}/manage/product/save"
+                            action="${contextRoot}/admin/product/save"
                             method="post"
                             enctype="multipart/form-data"
                             modelAttribute="product">
@@ -60,8 +60,16 @@
                         <div class="form-group row">
                             <label for="thumbnailImage" class="col-md-4 col-form-label">Thumbnail Image</label>
                             <div class="col-md-8">
-                                <form:input type="file" id="thumbnailImage" path="thumbnailImage" cssClass="form-control form-control-file"/>
-                                <form:errors path="thumbnailImage" cssClass="form-control-feedback small my-text-red" element="em"/>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <img src="${contextRoot}/resources/images/products/${product.id}/thumbnail.jpg"
+                                             alt="<No thumbnail>"
+                                             class="img-thumbnail my-img-product-edit-thumbnail">
+                                        <form:input type="file" id="thumbnailImage" path="thumbnailImage"
+                                                        cssClass=""/>
+                                        <form:errors path="thumbnailImage" cssClass="form-control-feedback small my-text-red" element="em"/>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -91,6 +99,7 @@
                         <form:hidden path="supplierId"/>
                         <form:hidden path="purchases"/>
                         <form:hidden path="views"/>
+                        <form:hidden path="thumbnailPath"/>
                     </form:form>
                 </div>
             </div>

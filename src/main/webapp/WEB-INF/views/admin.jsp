@@ -26,11 +26,26 @@
                         <li class="breadcrumb-item my-breadcrumb-item active">Manage Products</li>
                     </ol>
                 </c:if>
+
+                <c:if test="${userClickEditProduct == true}">
+                    <ol class="breadcrumb bg-warning my-breadcrumb">
+                        <li class="breadcrumb-item my-breadcrumb-item"><a href="${contextRoot}/home">Home</a></li>
+                        <li class="breadcrumb-item my-breadcrumb-item"><a href="${contextRoot}/admin">Admin Portal</a></li>
+                        <li class="breadcrumb-item my-breadcrumb-item"><a href="${contextRoot}/admin/product/list">Manage Products</a></li>
+                        <li class="breadcrumb-item my-breadcrumb-item active">Edit Product Information</li>
+                    </ol>
+                </c:if>
             </div>
         </div>
 
+        <!-- Edit Product Form loaded --!>
+        <c:if test="${userClickEditProduct == true}">
+            <%@include file="./productEdit.jsp"%>
+            <hr>
+        </c:if>
+
         <!-- Product List for Admin page included -->
-        <c:if test="${userClickAdminProduct == true}">
+        <c:if test="${userClickAdminProduct == true || userClickEditProduct == true}">
             <%@include file="productListTableAdmin.jsp" %>
         </c:if>
 

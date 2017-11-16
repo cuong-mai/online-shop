@@ -41,6 +41,10 @@ body {
     max-width: 100%;
 }
 
+.my-img-product-edit-thumbnail {
+    height: 50px;
+}
+
 .my-btn-wrapper-product-list {
     margin-top: 2px;
     margin-bottom: 2px;

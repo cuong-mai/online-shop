@@ -15,8 +15,8 @@ public class ProductValidator implements Validator {
 
         Product product = (Product) target;
 
-        if (product.getThumbnailImage() == null ||
-                product.getThumbnailImage().getOriginalFilename().equals("")) {
+        if (!product.hasThumbnailImage() &&
+                (product.getThumbnailImage() == null || product.getThumbnailImage().getOriginalFilename().equals(""))) {
 
             errors.rejectValue("thumbnailImage", null,
                     "Please select an image file to upload!");
@@ -24,9 +24,10 @@ public class ProductValidator implements Validator {
             return;
         }
 
-        if (! (product.getThumbnailImage().getContentType().equals("image/jpeg") ||
+        if (!product.hasThumbnailImage() &&
+                (! (product.getThumbnailImage().getContentType().equals("image/jpeg") ||
                 product.getThumbnailImage().getContentType().equals("image/png") ||
-                product.getThumbnailImage().getContentType().equals("image/gif"))) {
+                product.getThumbnailImage().getContentType().equals("image/gif")))) {
 
             errors.rejectValue("thumbnailImage", null,
                     "Please select a JPG, PNG or GIF file only!");

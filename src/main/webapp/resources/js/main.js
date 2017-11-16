@@ -135,13 +135,13 @@ function showProductListTableAdmin() {
                     type: "numeric"
                 },
                 {
-                    data: "quantity",
+                    data: "quantity"
                 },
                 {
-                    data: "views",
+                    data: "views"
                 },
                 {
-                    data: "purchases",
+                    data: "purchases"
                 },
                 {
                     data: "active",
