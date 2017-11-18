@@ -16,15 +16,20 @@ body {
     padding-bottom: 80px;
 }
 
-.body-footer {
-    position: absolute;
-    bottom: 0px;
+.my-footer {
+    /*position: absolute;*/
+    /*bottom: 0px;*/
     height: 32px;
+    margin-top: 16px;
     width: 100%;
     padding-top: 16px;
     padding-bottom: 48px;
-    background-color: #2e3133;
     font-size: smaller;
+}
+
+.my-card-img-top {
+    max-height: 230px !important;
+    width: auto !important;
 }
 
 .my-img-product-list-thumbnail {
@@ -51,12 +56,19 @@ body {
 }
 
 .my-data-table {
+    width: 100% !important;
     text-align: center;
+    font-size: medium;
+    /*border-collapse: separate;*/
+    /*border-spacing: 0px 32px;*/
+}
+
+.my-data-table tr {
+    /*box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.2);*/
 }
 
 .my-data-table td {
     vertical-align: middle;
-    font-size: large;
 }
 
 .my-breadcrumb-item {

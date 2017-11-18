@@ -404,7 +404,7 @@
       <Position>7</Position>
       <DataType>varchar(100)|0</DataType>
     </column>
-    <column id="108" parent="21" name="contact_number">
+    <column id="108" parent="21" name="phone">
       <Position>8</Position>
       <DataType>varchar(15)|0</DataType>
     </column>

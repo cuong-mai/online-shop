@@ -17,7 +17,10 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <a class="text-center mt-4" href="#">
+                        <img class="card-img-top img-fluid my-card-img-top"
+                             src="${contextRoot}/resources/images/products/1/thumbnail.jpg" alt="">
+                    </a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="#">Item One</a>
@@ -36,7 +39,10 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <a class="text-center mt-4" href="#">
+                        <img class="card-img-top img-fluid my-card-img-top"
+                             src="${contextRoot}/resources/images/products/4/thumbnail.jpg" alt="">
+                    </a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="#">Item Two</a>
@@ -52,7 +58,10 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <a class="text-center mt-4" href="#">
+                        <img class="card-img-top img-fluid my-card-img-top"
+                             src="${contextRoot}/resources/images/products/3/thumbnail.jpg" alt="">
+                    </a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="#">Item Three</a>
@@ -68,7 +77,10 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <a class="text-center mt-4" href="#">
+                        <img class="card-img-top img-fluid my-card-img-top"
+                             src="${contextRoot}/resources/images/products/6/thumbnail.jpg" alt="">
+                    </a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="#">Item Four</a>
@@ -84,7 +96,10 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <a class="text-center mt-4" href="#">
+                        <img class="card-img-top img-fluid my-card-img-top"
+                             src="${contextRoot}/resources/images/products/7/thumbnail.jpg" alt="">
+                    </a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="#">Item Five</a>
@@ -100,7 +115,10 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100">
-                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <a class="text-center mt-4" href="#">
+                        <img class="card-img-top img-fluid my-card-img-top"
+                             src="${contextRoot}/resources/images/products/11/thumbnail.jpg" alt="">
+                    </a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="#">Item Six</a>

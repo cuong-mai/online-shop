@@ -43,12 +43,12 @@
 
 <body>
 
-    <div class="container-fluid body-wrapper">
+    <div class="container-fluid">
         <%@include file="./shared/navbar.jsp"%>
 
-        <div ="row">
+        <div class="row">
 
-            <div class="col-sm-12 body-content">
+            <div class="col-sm-12">
 
                 <!-- Load Home page content -->
                 <c:if test="${userClickHome == true}">
@@ -81,21 +81,21 @@
                 </c:if>
             </div>
         </div>
-
-
-        <!-- Footer included -->
-        <%@include file="./shared/footer.jsp"%>
-
-        <!-- Bootstrap core JavaScript -->
-        <script src="${js}/jquery.min.js"></script>
-        <script src="${js}/bootstrap.bundle.min.js"></script>
-        <script src="${js}/datatables.js"></script>
-        <script src="${js}/datatables-plugin-natural-sort.js"></script>
-        <script src="${js}/custom-render-helper.js"></script>
-        <script src="${js}/bootbox.min.js"></script>
-        <script src="${js}/main.js"></script>
-
     </div>
+
+
+    <!-- Footer included -->
+    <%@include file="./shared/footer.jsp"%>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="${js}/jquery.min.js"></script>
+    <script src="${js}/bootstrap.bundle.min.js"></script>
+    <script src="${js}/datatables.js"></script>
+    <script src="${js}/datatables-plugin-natural-sort.js"></script>
+    <script src="${js}/custom-render-helper.js"></script>
+    <script src="${js}/bootbox.min.js"></script>
+    <script src="${js}/main.js"></script>
+
 </body>
 
 </html>
