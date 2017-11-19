@@ -20,8 +20,8 @@ public class HibernateConfig {
     private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/online_shop?useSSL=false";
     private static final String DATABASE_DRIVER = "com.mysql.jdbc.Driver";
     private static final String DATABASE_DIALECT = "org.hibernate.dialect.MySQLDialect";
-    private static final String DATABASE_USERNAME = "hbstudent";
-    private static final String DATABASE_PASSWORD = "hbstudent";
+    private static final String DATABASE_USERNAME = "onlineshop";
+    private static final String DATABASE_PASSWORD = "onlineshop";
 
     private Properties getHibernateProperties() {
         Properties properties = new Properties();
@@ -48,7 +48,7 @@ public class HibernateConfig {
     public SessionFactory sessionFactory(DataSource dataSource) {
         LocalSessionFactoryBuilder builder = new LocalSessionFactoryBuilder(dataSource);
         builder.addProperties(getHibernateProperties());
-        builder.scanPackages("net.cuongmai.onlineshop.model");
+        builder.scanPackages("net.cuongmai.onlineshop");
 
         return builder.buildSessionFactory();
     }
