@@ -42,8 +42,8 @@
 </head>
 
 <body>
-
-    <div class="container-fluid">
+<div class="my-body-wrapper">
+    <div class="container-fluid my-body-content">
         <%@include file="./shared/navbar.jsp"%>
 
         <div class="row">
@@ -86,6 +86,8 @@
 
     <!-- Footer included -->
     <%@include file="./shared/footer.jsp"%>
+
+</div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="${js}/jquery.min.js"></script>

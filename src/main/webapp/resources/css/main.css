@@ -7,18 +7,19 @@ body {
     height: 100%;
 }
 
-.body-wrapper {
+.my-body-wrapper {
     position: relative;
     min-height: 100%;
 }
 
-.body-content {
+.my-body-content {
     padding-bottom: 80px;
+    /*height: 100%;*/
 }
 
 .my-footer {
-    /*position: absolute;*/
-    /*bottom: 0px;*/
+    position: absolute;
+    bottom: 0px;
     height: 32px;
     margin-top: 16px;
     width: 100%;

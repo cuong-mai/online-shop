@@ -12,7 +12,7 @@
                     enctype="multipart/form-data"
                     modelAttribute="product">
 
-                <div class="form-group has-feedback row">
+                <div class="form-group row">
                     <label for="name" class="col-md-4 col-form-label">Product Name</label>
                     <div class="col-md-8">
                         <form:input id="name" path="name" cssClass="form-control"/>

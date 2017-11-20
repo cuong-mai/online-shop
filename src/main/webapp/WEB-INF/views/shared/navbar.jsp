@@ -12,7 +12,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li id="register" class="nav-item">
-                    <a class="nav-link" href="${contextRoot}/register">Sign Up</a>
+                    <a class="nav-link" href="${contextRoot}/signup">Sign Up</a>
                 </li>
                 <li id="admin" class="nav-item">
                     <a class="nav-link" href="${contextRoot}/admin">Admin Portal</a>
